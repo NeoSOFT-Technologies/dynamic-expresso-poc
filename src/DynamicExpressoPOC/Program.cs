@@ -1,17 +1,15 @@
 ﻿using DynamicExpressoPOC.Features;
 
-PrintHeading("Identifier Detection");
-IdentifierDetections.IdentifierDetection();
+PrintHeading("Variables");
+Variable.SetVariable();
+Variable.TypeVariable();
 
-PrintHeading("Exception Handling");
-ExceptionsHandling.ExceptionHandling();
+PrintHeading("Parameter");
+Parameters.ParameterSet();
+Parameters.InvokeParamter();
 
-
-PrintHeading("Dynamic Delegate");
-DynamicDelegates.DynamicDelegate();
-
-PrintHeading("Lambda Expression");
-LambdaExpressions.LambdaExpression();
+PrintHeading("Case Sensitive");
+CaseSensitive.ExampleCaseSesitive2();
 
 PrintHeading("Enable Reflection");
 CustomizingParser.Reflection();
@@ -22,10 +20,20 @@ CustomizingParser.Assignment();
 PrintHeading("Operator Expression");
 OperatorExpression.operatorExpression();
 
-
 PrintHeading("Access Member");
 AccessTypeMember.AccessMember();
 
+PrintHeading("Identifier Detection");
+IdentifierDetections.IdentifierDetection();
+
+PrintHeading("Exception Handling");
+ExceptionsHandling.ExceptionHandling();
+
+PrintHeading("Dynamic Delegate");
+DynamicDelegates.DynamicDelegate();
+
+PrintHeading("Lambda Expression");
+LambdaExpressions.LambdaExpression();
 
 
 void PrintHeading(string heading)
