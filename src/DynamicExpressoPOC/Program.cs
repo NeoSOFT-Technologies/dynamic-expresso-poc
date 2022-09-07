@@ -14,6 +14,15 @@ PrintHeading("Lambda Expression");
 LambdaExpressions.LambdaExpression();
 
 
+PrintHeading("Operator Expression");
+OperatorExpression.operatorExpression();
+
+
+PrintHeading("Access Member");
+AccessTypeMember.AccessMember();
+
+
+
 void PrintHeading(string heading)
 {
     Console.WriteLine($"\n\n*******************************************{heading}*******************************************");
