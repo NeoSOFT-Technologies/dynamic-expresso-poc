@@ -11,8 +11,6 @@ namespace DynamicExpressoPOC.Features
     {
         public static void IdentifierDetection()
         {
-            // Identifier detection  => Interpreter.DetectIdentifiers method will detect an unknown identifier and will notify the user if there is any
-
             Interpreter interpreter = new Interpreter();
 
             interpreter.SetVariable("x", 6);
