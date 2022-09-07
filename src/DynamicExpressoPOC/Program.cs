@@ -14,7 +14,7 @@ PrintHeading("Lambda Expression");
 LambdaExpressions.LambdaExpression();
 
 
-void PrintHeading(string topic)
+void PrintHeading(string heading)
 {
-    Console.WriteLine($"\n\n*******************************************{topic}*******************************************");
+    Console.WriteLine($"\n\n*******************************************{heading}*******************************************");
 }
