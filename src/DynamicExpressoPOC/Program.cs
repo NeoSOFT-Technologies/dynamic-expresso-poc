@@ -13,6 +13,11 @@ DynamicDelegates.DynamicDelegate();
 PrintHeading("Lambda Expression");
 LambdaExpressions.LambdaExpression();
 
+PrintHeading("Enable Reflection");
+CustomizingParser.Reflection();
+
+PrintHeading("Disable Assignment Operator");
+CustomizingParser.Assignment();
 
 void PrintHeading(string heading)
 {
