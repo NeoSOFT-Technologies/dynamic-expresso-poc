@@ -36,7 +36,4 @@ PrintHeading("Lambda Expression");
 LambdaExpressions.LambdaExpression();
 
 
-void PrintHeading(string heading)
-{
-    Console.WriteLine($"\n\n*******************************************{heading}*******************************************");
-}
+void PrintHeading(string heading) => Console.WriteLine($"\n\n*******************************************{heading}*******************************************");
